@@ -40,3 +40,5 @@ void main() {
     ),
   );
 }
+
+// https://github.com/gita/gita/blob/main/data/chapters.json
