@@ -29,11 +29,10 @@ class _AlbumsScreenState extends State<AlbumsScreen> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: black,
           title: Text(
             'Albums',
             style: TextStyle(
-                fontSize: 25, fontWeight: FontWeight.bold, color: white),
+                fontSize: 25, fontWeight: FontWeight.bold, color: black),
           ),
         ),
         body: ListView.builder(

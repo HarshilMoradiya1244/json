@@ -27,12 +27,11 @@ class _PhotosScreenState extends State<PhotosScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: black,
           centerTitle: true,
           title: Text(
             'Photos',
             style:TextStyle(
-                fontSize: 28, fontWeight: FontWeight.bold, color: white),
+                fontSize: 28, fontWeight: FontWeight.bold, color: black),
           ),
         ),
         body: ListView.builder(

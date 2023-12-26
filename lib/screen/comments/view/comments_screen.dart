@@ -28,12 +28,11 @@ class _CommentsScreenState extends State<CommentsScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: black,
           centerTitle: true,
-          title: Text(
+          title: const Text(
             'Comments',
             style:TextStyle(
-                fontSize: 28, fontWeight: FontWeight.bold, color: white),
+                fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
           ),
         ),
         body: ListView.builder(

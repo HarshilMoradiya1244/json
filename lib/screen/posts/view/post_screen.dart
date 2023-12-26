@@ -30,11 +30,10 @@ class _PostScreenState extends State<PostScreen> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: black,
           title: Text(
             'Posts',
             style: TextStyle(
-                fontSize: 28, fontWeight: FontWeight.bold, color: white),
+                fontSize: 28, fontWeight: FontWeight.bold, color: black),
           ),
         ),
         body: ListView.builder(

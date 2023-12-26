@@ -29,7 +29,6 @@ class _TodoScreenState extends State<TodoScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: black,
           centerTitle: true,
           title: const Text(
             'Todos',
