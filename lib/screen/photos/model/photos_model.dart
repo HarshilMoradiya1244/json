@@ -1,14 +1,8 @@
 class PhotoModel {
   int? albumId, id;
-  String? title,url,thumbnailurl;
+  String? title, url, thumbnailurl;
 
-  PhotoModel({
-    this.id,
-    this.albumId,
-    this.title,
-    this.thumbnailurl,
-    this.url
-  });
+  PhotoModel({this.id, this.albumId, this.title, this.thumbnailurl, this.url});
 
   factory PhotoModel.mapToModel(Map m1) {
     return PhotoModel(

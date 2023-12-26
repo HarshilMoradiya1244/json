@@ -31,7 +31,7 @@ class _TodoScreenState extends State<TodoScreen> {
           centerTitle: true,
           title: const Text(
             'Todos',
-            style:TextStyle(
+            style: TextStyle(
                 fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
           ),
         ),

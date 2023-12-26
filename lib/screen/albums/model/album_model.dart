@@ -2,11 +2,7 @@ class AlbumModel {
   int? userId, id;
   String? title;
 
-  AlbumModel({
-    this.id,
-    this.userId,
-    this.title,
-  });
+  AlbumModel({this.id, this.userId, this.title,});
 
   factory AlbumModel.mapToModel(Map m1) {
     return AlbumModel(

@@ -3,12 +3,7 @@ class TodoModel {
   String? title;
   bool? complete;
 
-  TodoModel({
-    this.id,
-    this.userId,
-    this.title,
-    this.complete
-  });
+  TodoModel({this.id, this.userId, this.title, this.complete});
 
   factory TodoModel.mapToModel(Map m1) {
     return TodoModel(

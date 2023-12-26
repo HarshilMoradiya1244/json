@@ -6,7 +6,6 @@ import '../screen/comments/view/comments_screen.dart';
 import '../screen/home/view/home_screen.dart';
 import '../screen/todos/view/todos_screen.dart';
 
-
 Map<String, WidgetBuilder> screen_routes = {
   '/': (context) => const HomeScreen(),
   'post': (context) => const PostScreen(),

@@ -13,7 +13,7 @@ class JsonHelper {
     var jsonString = await rootBundle.loadString('assets/json/posts.json');
     List post = jsonDecode(jsonString);
     List<PostModel> modelList =
-    post.map((e) => PostModel.mapToModel(e)).toList();
+        post.map((e) => PostModel.mapToModel(e)).toList();
     return modelList;
   }
 
@@ -21,7 +21,7 @@ class JsonHelper {
     var jsonString = await rootBundle.loadString('assets/json/comments.json');
     List comment = jsonDecode(jsonString);
     List<CommentModel> modelList =
-    comment.map((e) => CommentModel.mapToModel(e)).toList();
+        comment.map((e) => CommentModel.mapToModel(e)).toList();
     return modelList;
   }
 
@@ -29,7 +29,7 @@ class JsonHelper {
     var jsonString = await rootBundle.loadString('assets/json/albums.json');
     List album = jsonDecode(jsonString);
     List<AlbumModel> modelList =
-    album.map((e) => AlbumModel.mapToModel(e)).toList();
+        album.map((e) => AlbumModel.mapToModel(e)).toList();
     return modelList;
   }
 
@@ -37,7 +37,7 @@ class JsonHelper {
     var jsonString = await rootBundle.loadString('assets/json/todos.json');
     List todo = jsonDecode(jsonString);
     List<TodoModel> modelList =
-    todo.map((e) => TodoModel.mapToModel(e)).toList();
+        todo.map((e) => TodoModel.mapToModel(e)).toList();
     return modelList;
   }
 
@@ -45,7 +45,7 @@ class JsonHelper {
     var jsonString = await rootBundle.loadString('assets/json/photos.json');
     List photo = jsonDecode(jsonString);
     List<PhotoModel> modelList =
-    photo.map((e) => PhotoModel.mapToModel(e)).toList();
+        photo.map((e) => PhotoModel.mapToModel(e)).toList();
     return modelList;
   }
 }

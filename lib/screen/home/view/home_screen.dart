@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return  SafeArea(
+    return SafeArea(
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
@@ -32,8 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Text(
                   'Posts',
-                  style: TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
               ElevatedButton(
@@ -42,8 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Text(
                   'Photos',
-                  style: TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
               ElevatedButton(
@@ -52,8 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Text(
                   'Comments',
-                  style: TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
               ElevatedButton(
@@ -62,8 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Text(
                   'Albums',
-                  style: TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
               ElevatedButton(
@@ -72,8 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Text(
                   'Todos',
-                  style: TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
             ],

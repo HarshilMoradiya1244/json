@@ -2,12 +2,7 @@ class CommentModel {
   int? postId, id;
   String? name, email, body;
 
-  CommentModel({
-    this.postId,
-    this.id,
-    this.name,
-    this.email,
-    this.body,
+  CommentModel({this.postId, this.id, this.name, this.email, this.body,
   });
 
   factory CommentModel.mapToModel(Map m1) {

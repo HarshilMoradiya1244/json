@@ -31,7 +31,7 @@ class _CommentsScreenState extends State<CommentsScreen> {
           centerTitle: true,
           title: const Text(
             'Comments',
-            style:TextStyle(
+            style: TextStyle(
                 fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
           ),
         ),

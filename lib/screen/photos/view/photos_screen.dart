@@ -19,6 +19,7 @@ class _PhotosScreenState extends State<PhotosScreen> {
     super.initState();
     context.read<PhotoProvider>().getData();
   }
+
   @override
   Widget build(BuildContext context) {
     providerw = context.watch<PhotoProvider>();
@@ -29,7 +30,7 @@ class _PhotosScreenState extends State<PhotosScreen> {
           centerTitle: true,
           title: Text(
             'Photos',
-            style:TextStyle(
+            style: TextStyle(
                 fontSize: 28, fontWeight: FontWeight.bold, color: black),
           ),
         ),
@@ -46,7 +47,11 @@ class _PhotosScreenState extends State<PhotosScreen> {
                 style: TextStyle(
                     fontWeight: FontWeight.bold, color: black, fontSize: 20),
               ),
-              subtitle: Image.network("${providerw!.comment[index].url}",height: 100,width: 100,),
+              subtitle: Image.network(
+                "${providerw!.comment[index].url}",
+                height: 100,
+                width: 100,
+              ),
             );
           },
         ),

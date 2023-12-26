@@ -1,10 +1,8 @@
-
 import 'package:flutter/material.dart';
-
 import '../../../utils/jsonhelper.dart';
 import '../model/album_model.dart';
 
-class AlbumsProvider with ChangeNotifier{
+class AlbumsProvider with ChangeNotifier {
   List<AlbumModel> albums = [];
 
   Future<void> getData() async {
