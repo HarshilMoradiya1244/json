@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../util/color.dart';
+import '../../../utils/color.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

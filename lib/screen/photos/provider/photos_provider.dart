@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:json/screen/photos/model/photos_model.dart';
-import '../../../util/jsonhelper.dart';
+
+import '../../../utils/jsonhelper.dart';
 
 class PhotoProvider with ChangeNotifier {
   List<PhotoModel> comment = [];

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:json/screen/photos/provider/photos_provider.dart';
 import 'package:provider/provider.dart';
-
-import '../../../util/color.dart';
+import '../../../utils/color.dart';
 
 class PhotosScreen extends StatefulWidget {
   const PhotosScreen({super.key});

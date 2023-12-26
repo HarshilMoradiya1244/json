@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../util/jsonhelper.dart';
+import '../../../utils/jsonhelper.dart';
 import '../model/comments_model.dart';
 
 class CommentProvider with ChangeNotifier {

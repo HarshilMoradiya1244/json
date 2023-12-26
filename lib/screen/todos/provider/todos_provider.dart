@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../util/jsonhelper.dart';
+import '../../../utils/jsonhelper.dart';
 import '../model/todos_model.dart';
 
 class TodoProvider with ChangeNotifier {

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import '../../../util/color.dart';
+import '../../../utils/color.dart';
 import '../provider/album_provider.dart';
 
 class AlbumsScreen extends StatefulWidget {

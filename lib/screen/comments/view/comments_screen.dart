@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../util/color.dart';
+import '../../../utils/color.dart';
 import '../provider/comments_provider.dart';
 
 class CommentsScreen extends StatefulWidget {

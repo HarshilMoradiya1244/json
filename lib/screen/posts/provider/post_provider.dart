@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../util/jsonhelper.dart';
+import '../../../utils/jsonhelper.dart';
 import '../model/post_model.dart';
 
 class PostsProvider with ChangeNotifier {

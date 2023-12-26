@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 
-import '../../../util/jsonhelper.dart';
+import '../../../utils/jsonhelper.dart';
 import '../model/album_model.dart';
 
 class AlbumsProvider with ChangeNotifier{

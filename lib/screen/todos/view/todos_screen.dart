@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:json/screen/todos/provider/todos_provider.dart';
 import 'package:provider/provider.dart';
-
-import '../../../util/color.dart';
+import '../../../utils/color.dart';
 import '../../comments/provider/comments_provider.dart';
 
 class TodoScreen extends StatefulWidget {

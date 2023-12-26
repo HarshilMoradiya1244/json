@@ -5,7 +5,7 @@ import 'package:json/screen/comments/provider/comments_provider.dart';
 import 'package:json/screen/photos/provider/photos_provider.dart';
 import 'package:json/screen/posts/provider/post_provider.dart';
 import 'package:json/screen/todos/provider/todos_provider.dart';
-import 'package:json/util/app_routes.dart';
+import 'package:json/utils/app_routes.dart';
 import 'package:provider/provider.dart';
 
 void main() {
